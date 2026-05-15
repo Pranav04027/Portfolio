@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Developer portfolio favicon">
+  <defs>
+    <linearGradient id="bg" x1="8" y1="8" x2="56" y2="56" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0f172a" />
+      <stop offset="1" stop-color="#111827" />
+    </linearGradient>
+  </defs>
+  <rect x="4" y="6" width="56" height="52" rx="12" fill="url(#bg)" />
+  <rect x="8" y="10" width="48" height="44" rx="8" fill="#020617" stroke="#16a34a" stroke-width="2" />
+  <circle cx="15" cy="17" r="2" fill="#f87171" />
+  <circle cx="22" cy="17" r="2" fill="#fbbf24" />
+  <circle cx="29" cy="17" r="2" fill="#34d399" />
+  <path d="M22 30l-8 6 8 6" fill="none" stroke="#e5e7eb" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.5" />
+  <path d="M42 30l8 6-8 6" fill="none" stroke="#e5e7eb" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.5" />
+  <path d="M31 27l-4 18" fill="none" stroke="#16a34a" stroke-linecap="round" stroke-width="3.5" />
+</svg>

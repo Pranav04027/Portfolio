@@ -44,13 +44,6 @@ const Nav: React.FC = () => {
     };
   }, []);
 
-  const scrollToSection = (elementId: string) => {
-    const element = document.getElementById(elementId);
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
-    }
-  };
-
   return (
     <Navbar 
     className={`fixed w-full transition-all duration-300 ${
