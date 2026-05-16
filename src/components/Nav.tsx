@@ -54,7 +54,7 @@ const Nav: React.FC = () => {
       fluid
     >
       <Navbar.Brand href="/">
-        <span className={`self-center whitespace-nowrap font-bold transition-all duration-300 dark:text-white ${
+        <span className={`self-center whitespace-nowrap font-bold text-gray-900 transition-all duration-300 dark:text-white ${
           isScrolled ? 'text-base md:text-lg' : 'text-lg md:text-2xl'
         }`}>
           Pranav Chauhan

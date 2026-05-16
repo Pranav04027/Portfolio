@@ -8,7 +8,7 @@ const Portfolio = () => {
     <>
       <main id="home" className="w-full">
         {/* HERO */}
-        <section className="flex min-h-[90vh] items-center justify-center pt-20 md:pt-0">
+        <section className="flex min-h-[90vh] items-center justify-center bg-white pt-20 dark:bg-black md:pt-0">
           <div className="relative z-10 mx-auto flex max-w-screen-xl flex-col items-center justify-center px-4 py-16 text-center">
             <div className="mb-6 flex items-center gap-2">
               <span className="pulse-dot inline-block size-2 rounded-full bg-green-500" />
@@ -17,7 +17,7 @@ const Portfolio = () => {
               </span>
             </div>
 
-            <h1 className="mb-4 max-w-4xl text-4xl font-extrabold leading-tight tracking-tight dark:text-white sm:text-5xl md:text-7xl">
+            <h1 className="mb-4 max-w-4xl text-4xl font-extrabold leading-tight tracking-tight text-gray-900 dark:text-white sm:text-5xl md:text-7xl">
               Pranav Chauhan
             </h1>
 
