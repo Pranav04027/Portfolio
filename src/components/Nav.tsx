@@ -55,7 +55,7 @@ const Nav: React.FC = () => {
     >
       <Navbar.Brand href="/">
         <span className={`self-center whitespace-nowrap font-bold transition-all duration-300 dark:text-white ${
-          isScrolled ? 'text-lg' : 'text-2xl'
+          isScrolled ? 'text-base md:text-lg' : 'text-lg md:text-2xl'
         }`}>
           Pranav Chauhan
         </span>
@@ -86,12 +86,20 @@ const Nav: React.FC = () => {
         <span className="font-medium text-white">GitHub</span>
       </a>
         <a
-          href="#"
-          className={`z-10 mx-3 bg-green-700 flex items-center justify-center text-center font-bold text-white transition-all duration-300 hover:bg-green-800 focus:outline-none focus:ring-4 focus:ring-green-300 md:mr-0 rounded-lg ${
-            isScrolled ? 'px-4 py-2 text-sm' : 'text-md px-5 py-2.5'
+          href="#resume"
+          className={`z-10 mx-1 sm:mx-2 bg-green-700 flex items-center justify-center text-center font-bold text-white transition-all duration-300 hover:bg-green-800 focus:outline-none focus:ring-4 focus:ring-green-300 rounded-lg ${
+            isScrolled ? 'px-2 sm:px-3 py-1.5 sm:py-2 text-xs sm:text-sm' : 'px-2 sm:px-4 py-1.5 sm:py-2.5 text-xs sm:text-sm'
           }`}
         >
           Resume
+        </a>
+        <a
+          href="#contact"
+          className={`z-10 mx-1 sm:mx-2 bg-emerald-500 flex items-center justify-center text-center font-bold text-white transition-all duration-300 hover:bg-emerald-600 focus:outline-none focus:ring-4 focus:ring-emerald-300 shadow-lg shadow-emerald-500/25 rounded-lg ${
+            isScrolled ? 'px-2 sm:px-3 py-1.5 sm:py-2 text-xs sm:text-sm' : 'px-2 sm:px-4 py-1.5 sm:py-2.5 text-xs sm:text-sm'
+          }`}
+        >
+          Hire Me
         </a>
         <Navbar.Toggle />
       </div>
